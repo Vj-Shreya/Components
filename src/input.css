@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7fafc; /* Change the background color */
+    color: #333; /* Change the text color */
+}
+
+.mono {
+    font-family: 'JetBrains Mono', monospace;
+    color: #555; /* Change the monospace text color */
+}
+
+.container:focus-within svg {
+    fill: #007bff; /* Change fill color to blue when any input is in focus */
+}
+
+/* Add additional styles as needed */
